@@ -1,4 +1,5 @@
 # Timer
+
 This is a countdown timer written in NASM x86 assembly for linux machines.
 It can also be used on Windows using WSL.
 
@@ -17,6 +18,7 @@ NASM is the required version of assembly becuase of how the macros are defined i
 ```text
 nasm -gdwarf -f elf64 timer.asm -o timer.o
 ```
+
 -gdwarf sets debugging symbols to be enabled in the [dwarf](https://dwarfstd.org/#:~:text=DWARF%20is%20a%20debugging%20file,be%20extensible%20to%20other%20languages.) format vs the [stabs](http://quenelle.org/software%20development/2005/stabs-versus-dwarf.html) format. After trying both, I found no difference for my needs. The main part is that -g is enabled.
 
 Can also be written as -g -F dwarf
