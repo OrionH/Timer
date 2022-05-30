@@ -1,5 +1,7 @@
 # Timer
 
+![image](images/operation.gif)
+
 This is a countdown timer written in NASM x86 assembly for linux machines.
 It can also be used on Windows using WSL.
 
