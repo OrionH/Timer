@@ -217,6 +217,7 @@ _endLoop:						; when all values are 0
 
 
 _atoiRAX:						; convert string at rax to int
+	xor rbx, rbx				; clear rbx since the next steps use the partial register
 	mov [stringToInt], rax		; save base address
 	mov bl, [rax]
 	cmp bl, 0					; empty string check
