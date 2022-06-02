@@ -58,3 +58,4 @@ There are a lot of resources out there for assembly help, but with all the diffe
 - [ASCII Wiki](https://en.wikipedia.org/wiki/ASCII)
 - [University of Hawaii PPT](http://courses.ics.hawaii.edu/ReviewICS312/morea/X86NASM/ics312_nasm_data_bss.pdf)
 - [Win and Linux Assembly Tutorials](https://www.youtube.com/user/khoraski/playlists)
+- [System Calls](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86_64-64_bit)
